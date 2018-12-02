@@ -1,0 +1,379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Clothes Fasion template</title>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+        <style>
+            html, body, ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	color: #DBDBDB;
+	list-style: none;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0px;
+}
+p {
+	margin: 0.5em 0px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #eee;
+	text-decoration: underline;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	background: #580000;
+	font: 11px arial, sans-serif;
+}
+
+#wrapper {
+	margin:auto;
+	position:relative;
+	text-align:left;
+	width: 855px;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: -8px 0px url(images/header_bg.jpg) repeat-x;
+	height: 284px;
+}
+#header h1 {
+	background: 0px 0px url(images/header_left.jpg) no-repeat;
+	height: 184px;
+	width: 282px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	line-height: 1;
+}
+#header h1 em {
+	display: block;
+	padding: 23px 0 0 70px;
+	margin: 0;
+	font-weight: normal;
+	font-size: 28px;
+	font-family: "Times new roman", serif;
+}
+#header h1 strong {
+	display: block;
+	margin: 0px;
+	padding: 0px 0px 0px 90px;
+	font-weight: normal;
+	font-size: 15px;
+	font-family: verdana, arial, sans-serif;
+}
+
+#uppers {
+	position: absolute;
+	top: 17px;
+	left: 270px;
+	background: top left url(images/search.gif) no-repeat;
+	padding-left: 25px;
+	z-index: 15;
+}
+#nav-top {
+	position: absolute;
+	top: 10px;
+	left: 330px;
+	width: 200px;
+}
+#nav-top li {
+	display: inline;
+}
+
+#nav {
+	background: top left url(images/nav_left.gif) no-repeat;
+	position: absolute;
+	top: 66px;
+	left: 270px;
+	width: 580px;
+	text-align: center;
+	z-index: 15;
+}
+#nav div {
+	background: top right url(images/nav_right.gif) no-repeat;
+	padding: 0 10px;
+}
+#nav ul {
+	background: top left url(images/nav_bg.gif) repeat-x;
+	padding: 10px 0 10px 0px;
+}
+#nav li {
+	display: inline;
+}
+#nav a {
+	font-weight: normal;
+}
+
+#left-person {
+	position: absolute;
+	top: 115px;
+	left: 0px;
+	width: 282px;
+	height: 645px;
+	background: url(images/body_left1.jpg) no-repeat bottom left;
+}
+
+#body {
+	position: relative;
+	z-index: 10;
+	margin-left: 320px;
+	padding-top: 130px;
+	width: 500px;
+}
+
+#body h2 {
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#body h2 em {
+	font-size: 25px;
+	font-family: serif;
+}
+
+#black-tl { width: 100%; background: black top left url(images/black_tl.gif) no-repeat; }
+#black-tr { width: 100%; background: top right url(images/black_tr.gif) no-repeat; }
+#black-bl { width: 100%; background: bottom left url(images/black_bl.gif) no-repeat; }
+#black-br { width: 100%; background: bottom right url(images/black_br.gif) no-repeat; }
+
+#black-tl {
+	margin-left: 300px;
+	margin-top: 10px;
+	width: 540px;
+	position: relative;
+}
+#black-bl {
+	padding: 20px 20px 10px 20px;
+	position: relative;
+}
+
+.black-box {
+	float: left;
+	width: 126px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.black-box h2 {
+	font-size: 13px;
+	font-weight: normal;
+}
+.black-box h2 em {
+	font-size: 2px;
+	font-family: serif;
+}
+.black-box .more {
+	color: red;
+}
+
+#footer {
+	margin-left: 320px;
+	margin-top: 10px;
+	width: 550px;
+}
+
+#footer h2 {
+	font-size: 13px;
+	font-weight: normal;
+}
+#footer h2 em {
+	font-size: 22px;
+	font-family: serif;
+}
+#tips {
+	float: left;
+	width: 233px;
+}
+#choose {
+	float: left;
+	width: 200px;
+	margin-left: 50px;
+}
+
+#copyright {
+	margin-left: 320px;
+}
+#s {
+	position: relative;
+	top: 0.4em;
+}
+#submit {
+	position: relative;
+	top: 0.2em;
+}
+        </style>
+	
+</head>
+
+<body>
+
+	<div id="wrapper">
+	
+		<div id="header">
+			<h1><em>Sell</em><strong>Product</strong></h1>
+		</div>
+
+		<div id="left-person"></div>
+
+		<div id="uppers">
+			<form action="">
+				<select name="list">
+					<option value="w">car</option>
+					<option value="w">bike</option>
+                                        <option value="w">book</option>
+					<option value="w">home accessories</option>
+                                        <option value="w">sports</option>
+				</select>
+				<input type="text" name="q" value="Enter product code" id="q" />
+				<input type="image" name="s" src="images/btn_header.gif" id="s" />
+			</form>
+			<div id="nav-top">
+				<ul>
+					<li><a href="">Site map</a> |</li>
+					<li><a href="">Advertisement</a> |</li>
+					<li><a href="">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="nav"><div>
+			<ul>
+				<li><a href="index.html">HOME</a> &nbsp;|&nbsp;</li>
+				
+				<li><a href="">ACCESSORIES</a> &nbsp;|&nbsp;</li>
+				
+			</ul>
+		</div></div>
+
+		<div id="body">
+			<h2><em>Welcome</em> to our site</h2>
+			<p>Online marketplaces offer a number of advantages for small retailers, including the ability to reach new and diverse customer bases, but not all marketplaces are created equal. Some have proven invaluable resources for sellers, while others levy numerous fees without delivering a sufficient number of customers. Whether your wares are vintage clothing or handcrafted doghouses, it’s important to put time and effort into selecting the best places to sell your products over the web.</p> 
+					
+					<p>You can remove any link to our websites from this template you're  free to use the template without linking 
+					back to us.</p>
+			<p class="more"><a href="">More</a></p>
+		</div>
+
+		<div id="black-tl">
+			<div id="black-tr">
+				<div id="black-br">
+					<div id="black-bl">
+						
+						<div class="black-box">
+							<span class="inputDesc">Your Brand<sup>*</sup></span>
+                                                        <input list="brands" name="Brand_name" class="inputFields brands requiredElement" placeholder="Search for Brand" tabindex="1" value="">
+                              <span class="clearAll" title="Clear All">×</span>
+                              <datalist id="brands">
+                                <option id="10695" value="Aprilia"></option><option id="662" value="BMW"></option><option id="663" value="Bajaj"></option><option id="10704" value="Benelli"></option><option id="3953" value="Ducati"></option><option id="3954" value="Harley Davidson"></option><option id="661" value="Hero"></option><option id="659" value="Honda"></option><option id="3955" value="Hyosung"></option><option id="10710" value="Indian"></option><option id="3956" value="KTM"></option><option id="10717" value="Kawasaki"></option><option id="658" value="Kinetic Motors"></option><option id="657" value="LML ( Piaggio)"></option><option id="3950" value="Lambretta"></option><option id="3957" value="Mahindra"></option><option id="10724" value="Moto Guzzi"></option><option id="762" value="Royal Enfield"></option><option id="877" value="Suzuki"></option><option id="878" value="TVS"></option><option id="3958" value="Triumph"></option><option id="3951" value="YO Bikes"></option><option id="879" value="Yamaha"></option><option id="3959" value="Yezdi">                              </option></datalist>
+                                                    <label class="error" for="Brand_name"></label>
+                          
+                                                      <div class="popularBrands">
+                              <label class="popularTabs"></label><label class="popularTabs"></label><label class="popularTabs"></label><label class="popularTabs"></label>                            </div>
+                                                    
+                                                      <span class="inputDesc">Your Model<sup>*</sup></span>
+                                                          <input list="models" name="Model" class="inputFields models requiredElement" tabindex="2" placeholder="Search for Model" value="" readonly="">
+                              <span class="clearAll" title="Clear All">×</span>
+                              <datalist id="models">
+                              </datalist>
+                                                        <label class="error" for="Model"></label>
+                              <div class="popularModels hide">
+                              </div>
+                             
+
+                            <span class="inputDesc">Year of registration<sup>*</sup></span>
+                            <div class="yearContainer">
+                              <div class="decBtn regsSpin">-</div><select class="yearofmake requiredElement" name="Year">
+                                <option>Select Year</option>
+                                <option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="Before 1995">Before 1995</option>                              </select><div class="incBtn regsSpin">+</div>
+                            </div>
+                            <label class="error" for="Year"></label>
+
+                            <span class="inputDesc">Kms Driven<sup>*</sup></span>
+                            <input type="tel" class="inputBox kms requiredElement js-kms" maxlength="10" name="Kms_Driven" tabindex="5" value="">
+                            <span class="clearAll clearAllKms js-clearKms" title="Clear All">×</span>
+                            
+                            <span class="unitKms">kms</span>
+                            <label class="error" for="Kms_Driven"></label>
+                          
+                          <span class="inputDesc">City<sup>*</sup></span>
+                          
+                                                      <input list="cityName" name="cityName" class="inputFields requiredElement cityName" value="" placeholder="Enter city name or 6 digit Pin Code" tabindex="6">
+                            <span class="clearAll clearAllCity" title="Clear All">×</span>
+                            <datalist id="cityName">
+                              <option id="22" value="Ahmedabad"></option><option id="23" value="Bangalore"></option><option id="24" value="Chandigarh"></option><option id="25" value="Chennai"></option><option id="26" value="Coimbatore"></option><option id="27" value="Delhi"></option><option id="28" value="Hyderabad"></option><option id="29" value="Kochi"></option><option id="30" value="Kolkata"></option><option id="31" value="Mumbai"></option><option id="33" value="Pune"></option><option id="132222" value="Gurgaon"></option><option id="152222" value="Jaipur"></option><option id="162222" value="Lucknow"></option><option id="201301" value="Noida"></option><option id="400701" value="NaviMumbai"></option><option id="695001" value="Trivandrum"></option><option id="32" value="Mysore"></option><option id="100001" value="Changlang"></option><option id="100002" value="Namsai"></option><option id="100003" value="Barpeta"></option><option id="100004" value="Cachar"></option><option id="100005" value="Darrang"></option><option id="100006" value="Dhemaji"></option><option id="100007" value="Goalpara"></option><option id="100008" value="Golaghat"></option><option id="100009" value="Hailakandi"></option><option id="100010" value="Kamrup"></option><option id="100011" value="Kokrajhar"></option><option id="100012" value="Marigaon"></option><option id="100013" value="Nalbari"></option><option id="100014" value="Sonitpur"></option><option id="100015" value="Banka"></option><option id="100016" value="Bhojpur"></option><option id="100017" value="Godda"></option><option id="100018" value="Kaimur"></option><option id="100019" value="Khagaria"></option><option id="100020" value="Madhepura"></option><option id="100021" value="Nalanda"></option><option id="100022" value="Rohtas"></option><option id="100023" value="Saran"></option><option id="100024" value="Sheohar"></option><option id="100025" value="Siwan"></option><option id="100026" value="Bastar"></option><option id="100027" value="Jashpur"></option><option id="100028" value="Kanker"></option><option id="100029" value="Mahasamund"></option><option id="100030" value="Surguja"></option><option id="100031" value="Kutch"></option><option id="100032" value="Panchmahal"></option><option id="100033" value="Dang"></option><option id="100034" value="CharkhiDadri"></option><option id="100036" value="Hamirpur"></option><option id="100037" value="Kinnaur"></option><option id="100038" value="LahaulSpiti"></option><option id="100039" value="Mandi"></option><option id="100040" value="Nahan"></option><option id="100041" value="Sirmaur"></option><option id="100042" value="Budgam"></option><option id="100043" value="Doda"></option><option id="100044" value="Kargil"></option><option id="100045" value="Kupwara"></option><option id="100046" value="Poonch"></option><option id="100047" value="Pulwama"></option><option id="100048" value="Rajouri"></option><option id="100049" value="Samba"></option><option id="100050" value="Chatra"></option><option id="100051" value="Dumka"></option><option id="100052" value="Garhwa"></option><option id="100053" value="Gumla"></option><option id="100054" value="Hazaribagh"></option><option id="100055" value="Jamtara"></option><option id="100056" value="Koderma"></option><option id="100057" value="Latehar"></option><option id="100058" value="Lohardaga"></option><option id="100059" value="Palamu"></option><option id="100060" value="WestSinghbhum"></option><option id="100061" value="Sahibganj"></option><option id="100062" value="SeraikelaKharsawan"></option><option id="100063" value="Simdega"></option><option id="100064" value="Coorg"></option><option id="100065" value="UttaraKannada"></option><option id="100066" value="Idukki"></option><option id="100067" value="Pathanamthitta"></option><option id="100069" value="Alirajpur"></option><option id="100070" value="Anuppur"></option><option id="100071" value="Barwani"></option><option id="100072" value="Dindori"></option><option id="100073" value="Jhabua"></option><option id="100076" value="Neemuch"></option><option id="100077" value="Raisen"></option><option id="100078" value="Sidhi"></option><option id="100079" value="Umaria"></option><option id="100080" value="Gadchiroli"></option><option id="100081" value="Sindhudurg"></option><option id="100083" value="Chandel"></option><option id="100084" value="Churachandpur"></option><option id="100085" value="Senapati"></option><option id="100086" value="Tamenglong"></option><option id="100087" value="Thoubal"></option><option id="100088" value="EastKhasiHills"></option><option id="100089" value="Kolasib"></option><option id="100090" value="Lawngtlai"></option><option id="100091" value="Lunglei"></option><option id="100092" value="Mamit"></option><option id="100093" value="Saiha"></option><option id="100094" value="Serchhip"></option><option id="100095" value="Mokokchung"></option><option id="100096" value="Mon"></option><option id="100097" value="Phek"></option><option id="100098" value="Tuensang"></option><option id="100099" value="Wokha"></option><option id="100100" value="Zunheboto"></option><option id="100101" value="Angul"></option><option id="100102" value="Boudh"></option><option id="100105" value="Deogarh"></option><option id="100106" value="Ganjam"></option><option id="100107" value="Jagatsinghpur"></option><option id="100108" value="Jajpur"></option><option id="100109" value="Kalahandi"></option><option id="100110" value="Kandhamal"></option><option id="100111" value="Kendrapara"></option><option id="100112" value="Koraput"></option><option id="100113" value="Khordha"></option><option id="100114" value="Malkangiri"></option><option id="100115" value="Mayurbhanj"></option><option id="100116" value="Nabarangpur"></option><option id="100117" value="Nayagarh"></option><option id="100118" value="Subarnapur"></option><option id="100119" value="Sundargarh"></option><option id="100120" value="FatehgarhSahib"></option><option id="100121" value="Rupnagar"></option><option id="100122" value="Dungarpur"></option><option id="100123" value="Jalore"></option><option id="100124" value="Jhalawar"></option><option id="100125" value="Sirohi"></option><option id="100126" value="Ariyalur"></option><option id="100127" value="Perambalur"></option><option id="100128" value="Sivaganga"></option><option id="100129" value="Medak"></option><option id="100130" value="RangaReddy"></option><option id="100131" value="Dhalai"></option><option id="100132" value="NorthTripura"></option><option id="100133" value="SouthTripura"></option><option id="100134" value="WestTripura"></option><option id="100135" value="AmbedkarNagar"></option><option id="100136" value="Amethi"></option><option id="100137" value="Bagpat"></option><option id="100138" value="Chandauli"></option><option id="100139" value="Chitrakoot"></option><option id="100141" value="Kaushambi"></option><option id="100142" value="LakhimpurKheri"></option><option id="100143" value="Kushinagar"></option><option id="100144" value="Maharajganj"></option><option id="100145" value="Pratapgarh"></option><option id="100146" value="SantKabirNagar"></option><option id="100147" value="Shrawasti"></option><option id="100148" value="Siddharthnagar"></option><option id="100149" value="Sonbhadra"></option><option id="100150" value="Bageshwar"></option><option id="100151" value="Chamoli"></option><option id="100152" value="Champawat"></option><option id="100153" value="PauriGarhwal"></option><option id="100154" value="Pithoragarh"></option><option id="100155" value="Rudraprayag"></option><option id="100156" value="TehriGarhwal"></option><option id="100157" value="UdhamSinghNagar"></option><option id="100158" value="Uttarkashi"></option><option id="100159" value="Malda"></option><option id="100160" value="North24Parganas"></option><option id="100161" value="PurbaMedinipur"></option><option id="100162" value="South24Parganas"></option><option id="100163" value="DakshinDinajpur"></option><option id="100164" value="WestDinajpur"></option><option id="100165" value="PaschimMedinipur"></option><option id="100167" value="Akbarpur"></option><option id="100168" value="Krishna"></option><option id="100169" value="Prakasam"></option><option id="100170" value="Bansi"></option><option id="100171" value="Berhampore"></option><option id="100194" value="EastGodavari"></option><option id="100195" value="Biharsharif"></option><option id="100196" value="Challakere"></option><option id="100197" value="Dharamshala"></option><option id="100198" value="Jalaun"></option><option id="100199" value="Jangipur"></option><option id="100200" value="Medinipur"></option><option id="100201" value="Rajpipla"></option><option id="100202" value="Tawang"></option><option id="100203" value="Tirap"></option><option id="100204" value="UpperSiang"></option><option id="100205" value="WestKameng"></option><option id="100206" value="WestSiang"></option><option id="100207" value="Devakottai"></option><option id="100209" value="DimaHasao"></option><option id="100210" value="Kadur"></option><option id="100211" value="EastChamparan"></option><option id="100213" value="Sheikhpura"></option><option id="100214" value="Pandalur"></option><option id="100215" value="JanjgirChampa"></option><option id="100217" value="Kawardha"></option><option id="100218" value="Raghunathganj"></option><option id="100221" value="Tirupattur"></option><option id="100222" value="Arsikere"></option><option id="100223" value="Avinashi"></option><option id="100224" value="Brahiya"></option><option id="100225" value="Chatrapur"></option><option id="100226" value="Didwana"></option><option id="100227" value="Gopeshwar"></option><option id="100228" value="Hiriyur"></option><option id="100229" value="Jamkhandi"></option><option id="100230" value="Kotdwara"></option><option id="100231" value="Mudhol"></option><option id="100232" value="Paralakhemundi"></option><option id="100233" value="Rasipuram"></option><option id="100234" value="Sindagi"></option><option id="100236" value="Udumalpet"></option><option id="100239" value="Bhatkal"></option><option id="100248" value="Nakodar"></option><option id="121001" value="Faridabad"></option><option id="122103" value="Mewat"></option><option id="123001" value="Mahendragarh"></option><option id="123106" value="Dharuhera"></option><option id="124103" value="Jhajjar"></option><option id="125001" value="Hisar"></option><option id="125055" value="Sirsa"></option><option id="134102" value="Panchkula"></option><option id="136118" value="Kurukshetra"></option><option id="140110" value="Mohali"></option><option id="141001" value="Ludhiana"></option><option id="142222" value="Indore"></option><option id="143104" value="Amritsar"></option><option id="144001" value="Jalandhar"></option><option id="144514" value="Nawanshahr"></option><option id="160104" value="Zirakpur"></option><option id="171206" value="Shimla"></option><option id="172222" value="Nagpur"></option><option id="173204" value="Kasauli"></option><option id="173209" value="Dharampur"></option><option id="173215" value="Solan"></option><option id="174001" value="BilaspurHP"></option><option id="175101" value="Kullu"></option><option id="175131" value="Manali"></option><option id="176036" value="Kangra"></option><option id="176215" value="Dharamsala"></option><option id="176304" value="Dalhousie"></option><option id="176316" value="Chamba"></option><option id="180001" value="Jammu"></option><option id="182144" value="Ramban"></option><option id="182204" value="Kishtwar"></option><option id="182222" value="Surat"></option><option id="182311" value="Reasi"></option><option id="190001" value="Srinagar"></option><option id="191201" value="Ganderbal"></option><option id="192231" value="Kulgam"></option><option id="192305" value="Shopian"></option><option id="193502" value="Bandipora"></option><option id="194101" value="Leh"></option><option id="201002" value="Ghaziabad"></option><option id="201310" value="GreaterNoida"></option><option id="208001" value="Kanpur"></option><option id="210301" value="HamirpurHP"></option><option id="211001" value="Allahabad"></option><option id="221002" value="Varanasi"></option><option id="221304" value="SantRavidasNagar"></option><option id="222136" value="Jalalpur"></option><option id="225402" value="Barabanki"></option><option id="243001" value="Bareilly"></option><option id="244302" value="Moradabad"></option><option id="246746" value="Seohara"></option><option id="246761" value="Dhampur"></option><option id="248003" value="Dehradun"></option><option id="248179" value="Mussoorie"></option><option id="250002" value="Meerut"></option><option id="263001" value="Nainital"></option><option id="263601" value="Almora"></option><option id="281001" value="Mathura"></option><option id="282002" value="Agra"></option><option id="301019" value="Bhiwadi"></option><option id="305001" value="Ajmer"></option><option id="305002" value="Pushkar"></option><option id="313001" value="Udaipur"></option><option id="334001" value="Bikaner"></option><option id="342001" value="Jodhpur"></option><option id="360001" value="Rajkot"></option><option id="361001" value="Jamnagar"></option><option id="361335" value="Dwarka"></option><option id="362150" value="GirSomnath"></option><option id="370210" value="Kandla"></option><option id="382010" value="Gandhinagar"></option><option id="383001" value="Sabarkantha"></option><option id="383350" value="Aravalli"></option><option id="385001" value="Banaskantha"></option><option id="387411" value="Kheda"></option><option id="388255" value="Mahisagar"></option><option id="390001" value="Vadodara"></option><option id="391165" value="ChhotaUdaipur"></option><option id="393110" value="Bharuch"></option><option id="393145" value="Narmada"></option><option id="394635" value="Tapi"></option><option id="396193" value="DadraandNagarHaveli"></option><option id="400601" value="Thane"></option><option id="400605" value="Kalwa"></option><option id="400612" value="Mumbra"></option><option id="402305" value="Raigad"></option><option id="403108" value="Goa"></option><option id="413001" value="Solapur"></option><option id="415002" value="Satara"></option><option id="416001" value="Kolhapur"></option><option id="421201" value="Dombivli"></option><option id="421301" value="Kalyan"></option><option id="421501" value="Ambernath"></option><option id="422001" value="Nashik"></option><option id="431001" value="Aurangabad"></option><option id="444001" value="Akola"></option><option id="462001" value="Bhopal"></option><option id="465441" value="AgarMalwa"></option><option id="474003" value="Gwalior"></option><option id="482004" value="Jabalpur"></option><option id="483775" value="Katni"></option><option id="491226" value="Balod"></option><option id="491335" value="Bemetara"></option><option id="491995" value="Kabirdham"></option><option id="493332" value="BalodaBazarBhatapara"></option><option id="493889" value="Gariaband"></option><option id="494111" value="Sukma"></option><option id="494226" value="Kondagaon"></option><option id="494449" value="Dantewada"></option><option id="494450" value="BijapurCGH"></option><option id="494661" value="Narayanpur"></option><option id="495001" value="Bilaspur"></option><option id="495334" value="Mungeli"></option><option id="497229" value="Surajpur"></option><option id="497335" value="Koriya"></option><option id="501101" value="Vikarabad"></option><option id="503111" value="Kamareddy"></option><option id="504293" value="Asifabad"></option><option id="505172" value="Peddapalli"></option><option id="505301" value="RajannaSircilla"></option><option id="506002" value="Warangal"></option><option id="506101" value="Mahabubabad"></option><option id="506167" value="Jangaon"></option><option id="507101" value="BhadradriKothagudem"></option><option id="509125" value="JogulambaGadwal"></option><option id="509209" value="Nagarkurnool"></option><option id="520001" value="Vijayawada"></option><option id="524101" value="Nellore"></option><option id="531001" value="Vizag"></option><option id="534001" value="WestGodavari"></option><option id="575001" value="Mangalore"></option><option id="580020" value="Hubli"></option><option id="590001" value="Belgaum"></option><option id="605001" value="Pondicherry"></option><option id="620015" value="Trichy"></option><option id="625001" value="Madurai"></option><option id="629161" value="Kanyakumari"></option><option id="632001" value="Vellore"></option><option id="636001" value="Salem"></option><option id="643001" value="Nilgiris"></option><option id="673003" value="Kozhikode"></option><option id="673121" value="Wayanad"></option><option id="673310" value="Mahe"></option><option id="680001" value="Thrissur"></option><option id="682301" value="Tripunithura"></option><option id="685584" value="Thodupuzha"></option><option id="689101" value="Thiruvalla"></option><option id="721301" value="Kharagpur"></option><option id="731101" value="Birbhum"></option><option id="733134" value="UttarDinajpur"></option><option id="737101" value="EastSikkim"></option><option id="737111" value="WestSikkim"></option><option id="737116" value="NorthSikkim"></option><option id="737126" value="SouthSikkim"></option><option id="741101" value="Nadia"></option><option id="744201" value="Andaman"></option><option id="744303" value="Nicobar"></option><option id="751001" value="Bhubaneswar"></option><option id="753001" value="Cuttack"></option><option id="761200" value="Gajapati"></option><option id="766104" value="Nuapada"></option><option id="781001" value="Guwahati"></option><option id="781360" value="Baksa"></option><option id="782105" value="Morigaon"></option><option id="782435" value="Hojai"></option><option id="782460" value="EastKarbiAnglong"></option><option id="782486" value="WestKarbiAnglong"></option><option id="783385" value="Chirang"></option><option id="784176" value="Biswanath"></option><option id="784509" value="Udalguri"></option><option id="785102" value="Majuli"></option><option id="785686" value="Charaideo"></option><option id="786631" value="Longding"></option><option id="790102" value="EastKameng"></option><option id="791001" value="KraDaadi"></option><option id="791102" value="EastSiang"></option><option id="791111" value="PapumPare"></option><option id="791118" value="KurungKumey"></option><option id="791120" value="LowerSubansiri"></option><option id="791122" value="UpperSubansiri"></option><option id="791125" value="Siang"></option><option id="792001" value="Lohit"></option><option id="792101" value="DibangValley"></option><option id="792104" value="Anjaw"></option><option id="792110" value="LowerDibangValley"></option><option id="793001" value="Shillong"></option><option id="793102" value="RiBhoi"></option><option id="793109" value="EastJaintiaHills"></option><option id="793114" value="SouthWestKhasiHills"></option><option id="793119" value="WestKhasiHills"></option><option id="793150" value="WestJaintiaHills"></option><option id="794001" value="WestGaroHills"></option><option id="794102" value="SouthGaroHills"></option><option id="794108" value="NorthGaroHills"></option><option id="794110" value="EastGaroHills"></option><option id="794115" value="SouthWestGaroHills"></option><option id="795004" value="ImphalWest"></option><option id="795005" value="ImphalEast"></option><option id="795142" value="Ukhrul"></option><option id="796001" value="Aizawl"></option><option id="796321" value="Champhai"></option><option id="797001" value="Kohima"></option><option id="797101" value="Peren"></option><option id="798611" value="Kiphire"></option><option id="798625" value="Longleng"></option><option id="799101" value="Gomati"></option><option id="799102" value="Sipahijala"></option><option id="799201" value="Khowai"></option><option id="799290" value="Unakoti"></option><option id="800001" value="Patna"></option><option id="804401" value="Arwal"></option><option id="816107" value="Pakur"></option><option id="824101" value="AurangabadBH"></option><option id="826001" value="Dhanbad"></option><option id="831001" value="Jamshedpur"></option><option id="832102" value="PurbiSinghbhum"></option><option id="832404" value="Khunti"></option><option id="834002" value="Ranchi"></option><option id="844101" value="Vaishali"></option><option id="845438" value="WestChamparan"></option><option id="1000001" value="Adilabad"></option><option id="1000181" value="Adoni"></option><option id="1000361" value="Amalapuram"></option><option id="1000541" value="Anakapalle"></option><option id="1000721" value="Anantapur"></option><option id="1000901" value="Bapatla"></option><option id="1001081" value="Bellampalle"></option><option id="1001261" value="Bhimavaram"></option><option id="1001441" value="Bobbili"></option><option id="1001621" value="Bodhan"></option><option id="1001801" value="Chilakalurupet"></option><option id="1001981" value="Chinnachowk"></option><option id="1002161" value="Chirala"></option><option id="1002341" value="Chittoor"></option><option id="1002521" value="Cuddapah"></option><option id="1002701" value="Dharmavaram"></option><option id="1002881" value="Eluru"></option><option id="1003061" value="GaddiAnnaram"></option><option id="1003241" value="Gadwal"></option><option id="1003421" value="Gudivada"></option><option id="1003601" value="Gudur"></option><option id="1003781" value="Guntakal"></option><option id="1003961" value="Guntur"></option><option id="1004141" value="Hindupur"></option><option id="1004321" value="Jagtial"></option><option id="1004501" value="Kadiri"></option><option id="1004681" value="Kagaznagar"></option><option id="1004861" value="Kakinada"></option><option id="1005041" value="Kallur"></option><option id="1005221" value="Kapra"></option><option id="1005401" value="Karimnagar"></option><option id="1005581" value="Kavali"></option><option id="1005761" value="Khamman"></option><option id="1005941" value="Koratla"></option><option id="1006121" value="Kottagudem"></option><option id="1006301" value="Kurnool"></option><option id="1006481" value="Machilipatnam"></option><option id="1006661" value="Madanapalle"></option><option id="1006841" value="Mahbubnagar"></option><option id="1007021" value="Mancherial"></option><option id="1007201" value="Mandamarri"></option><option id="1007381" value="Mangalagiri"></option><option id="1007561" value="Markapur"></option><option id="1007741" value="Miryalguda"></option><option id="1007921" value="Nalgonda"></option><option id="1008101" value="Nandyal"></option><option id="1008281" value="Narasaraopet"></option><option id="1008461" value="Narsapur"></option><option id="1008641" value="Nirmal"></option><option id="1008821" value="Nizamabad"></option><option id="1009001" value="Nuzvid"></option><option id="1009181" value="Ongole"></option><option id="1009361" value="Palakol"></option><option id="1009541" value="Palwancha"></option><option id="1009721" value="Pitapuram"></option><option id="1009901" value="Ponnur"></option><option id="1010081" value="Proddatur"></option><option id="1010261" value="Qutubullapur"></option><option id="1010441" value="Rajahmundry"></option><option id="1010621" value="Rajendranagar"></option><option id="1010801" value="Ramachandrapuram"></option><option id="1010981" value="Ramagundam"></option><option id="1011161" value="Rayachoti"></option><option id="1011341" value="Rayadurg"></option><option id="1011521" value="Samalkota"></option><option id="1011701" value="Sangareddy"></option><option id="1011881" value="Sattenapalle"></option><option id="1012061" value="Secunderabad"></option><option id="1012241" value="Serilingampally"></option><option id="1012421" value="Siddipet"></option><option id="1012601" value="Sirsilla"></option><option id="1012781" value="Srikakulam"></option><option id="1012961" value="Srikalahasti"></option><option id="1013141" value="Suryapet"></option><option id="1013321" value="Tadepalligudem"></option><option id="1013501" value="Tadpatri"></option><option id="1013681" value="Tandur"></option><option id="1013861" value="Tanuku"></option><option id="1014041" value="Tenali"></option><option id="1014221" value="Tirupati"></option><option id="1014401" value="Tuni"></option><option id="1014581" value="Uppal"></option><option id="1014761" value="Vinukonda"></option><option id="1014941" value="Vizianagaram"></option><option id="1015121" value="Wanaparthi"></option><option id="1015301" value="Yemmiganur"></option><option id="1015481" value="Itanagar"></option><option id="1015661" value="Bongaigaon"></option><option id="1015841" value="Dhubri"></option><option id="1016021" value="Dibrugarh"></option><option id="1016201" value="Diphu"></option><option id="1016381" value="Dispur"></option><option id="1016561" value="Jorhat"></option><option id="1016741" value="Karimganj"></option><option id="1016921" value="Lumding"></option><option id="1017101" value="Nagaon"></option><option id="1017281" value="NorthLakhimpur"></option><option id="1017461" value="Silchar"></option><option id="1017641" value="Sivasagar"></option><option id="1017821" value="Tezpur"></option><option id="1018001" value="Tinsukia"></option><option id="1018181" value="Araria"></option><option id="1018361" value="Arrah"></option><option id="1018541" value="Bagaha"></option><option id="1018721" value="Begusarai"></option><option id="1018901" value="Bettiah"></option><option id="1019081" value="Bhagalpur"></option><option id="1019261" value="Buxar"></option><option id="1019441" value="Chapra"></option><option id="1019621" value="Darbhanga"></option><option id="1019801" value="DehrionSone"></option><option id="1019981" value="DinapurNizamat"></option><option id="1020161" value="Gaya"></option><option id="1020341" value="Gopalganj"></option><option id="1020521" value="Hajipur"></option><option id="1020701" value="Jamalpur"></option><option id="1020881" value="Jamui"></option><option id="1021061" value="Jehanabad"></option><option id="1021241" value="Katihar"></option><option id="1021421" value="Kishanganj"></option><option id="1021601" value="Lakhisarai"></option><option id="1021781" value="Madhubani"></option><option id="1021961" value="Mokama"></option><option id="1022141" value="Motihari"></option><option id="1022321" value="Munger"></option><option id="1022501" value="Muzaffarpur"></option><option id="1022681" value="Nawada"></option><option id="1022861" value="PhulwariSharif"></option><option id="1023041" value="Purnia"></option><option id="1023221" value="Saharsa"></option><option id="1023401" value="Samastipur"></option><option id="1023581" value="Sasaram"></option><option id="1023761" value="Sitamarhi"></option><option id="1023941" value="Supaul"></option><option id="1024121" value="Ambikapur"></option><option id="1024301" value="Bhatapara"></option><option id="1024481" value="Bhilai"></option><option id="1024661" value="BhilaiCharoda"></option><option id="1024841" value="Chirmiri"></option><option id="1025021" value="DalliRajhara"></option><option id="1025201" value="Dhamtari"></option><option id="1025381" value="Durg"></option><option id="1025561" value="Jagdalpur"></option><option id="1025741" value="Korba"></option><option id="1025921" value="Raigarh"></option><option id="1026101" value="Raipur"></option><option id="1026281" value="RajNandgaon"></option><option id="1026461" value="Silvassa"></option><option id="1026641" value="Daman"></option><option id="1026821" value="Diu"></option><option id="1027001" value="Madgaon"></option><option id="1027181" value="Mormugoa"></option><option id="1027361" value="Panaji"></option><option id="1027541" value="Amreli"></option><option id="1027721" value="Anand"></option><option id="1027901" value="Anjar"></option><option id="1028081" value="Ankleshwar"></option><option id="1028261" value="Bardoli"></option><option id="1028441" value="Bhavnagar"></option><option id="1028621" value="Bhuj"></option><option id="1028801" value="Bilimora"></option><option id="1028981" value="Borsad"></option><option id="1029161" value="Botad"></option><option id="1029341" value="Chandkheda"></option><option id="1029521" value="Chandlodiya"></option><option id="1029701" value="Dabhoi"></option><option id="1029881" value="Dahod"></option><option id="1030061" value="Deesa"></option><option id="1030241" value="Dholka"></option><option id="1030421" value="Dhoraji"></option><option id="1030601" value="Dhrangadhra"></option><option id="1030781" value="Gandhidham"></option><option id="1030961" value="Ghatlodiya"></option><option id="1031141" value="Godhra"></option><option id="1031321" value="Gondal"></option><option id="1031501" value="Himatnagar"></option><option id="1031681" value="Jetpur"></option><option id="1031861" value="Junagadh"></option><option id="1032041" value="Kadi"></option><option id="1032221" value="Kalol"></option><option id="1032401" value="Keshod"></option><option id="1032581" value="Khambhat"></option><option id="1032761" value="Mahuva"></option><option id="1032941" value="Mandvi"></option><option id="1033121" value="Mangrol"></option><option id="1033301" value="Mehsana"></option><option id="1033481" value="Modasa"></option><option id="1033661" value="Morbi"></option><option id="1033841" value="Nadiad"></option><option id="1034021" value="Navsari"></option><option id="1034201" value="Palanpur"></option><option id="1034381" value="Palitana"></option><option id="1034561" value="Patan"></option><option id="1034741" value="Petlad"></option><option id="1034921" value="Porbandar"></option><option id="1035101" value="Ranip"></option><option id="1035281" value="Savarkundla"></option><option id="1035461" value="Sidhpur"></option><option id="1035641" value="Surendranagar"></option><option id="1035821" value="Una"></option><option id="1036001" value="Unjha"></option><option id="1036181" value="Upleta"></option><option id="1036361" value="Valsad"></option><option id="1036541" value="Vapi"></option><option id="1036721" value="Vejalpur"></option><option id="1036901" value="Veraval"></option><option id="1037081" value="Vijalpor"></option><option id="1037261" value="Viramgam"></option><option id="1037441" value="Visnagar"></option><option id="1037621" value="Ambala"></option><option id="1037801" value="AmbalaSadar"></option><option id="1037981" value="Bahadurgarh"></option><option id="1038161" value="Bhiwani"></option><option id="1038341" value="Fatehabad"></option><option id="1038521" value="Hansi"></option><option id="1038701" value="Jagadhri"></option><option id="1038881" value="Jind"></option><option id="1039061" value="Kaithal"></option><option id="1039241" value="Karnal"></option><option id="1039421" value="MandiDabwali"></option><option id="1039601" value="Narnaul"></option><option id="1039781" value="Narwana"></option><option id="1039961" value="Palwal"></option><option id="1040142" value="Panipat"></option><option id="1040322" value="Rewari"></option><option id="1040502" value="Rohtak"></option><option id="1040682" value="Sonipat"></option><option id="1040862" value="Thanesar"></option><option id="1041042" value="Tohana"></option><option id="1041222" value="Yamunanagar"></option><option id="1041402" value="Anantnag"></option><option id="1041582" value="Baramulla"></option><option id="1041762" value="Kathua"></option><option id="1041942" value="Sopore"></option><option id="1042122" value="Udhampur"></option><option id="1042302" value="Adityapur"></option><option id="1042482" value="Bagbera"></option><option id="1042662" value="Bhuli"></option><option id="1042842" value="BokaroSteelCity"></option><option id="1043022" value="Chaibasa"></option><option id="1043202" value="Chakradharpur"></option><option id="1043382" value="Chirkunda"></option><option id="1043562" value="Daltonganj"></option><option id="1043742" value="Deoghar"></option><option id="1043922" value="Giridih"></option><option id="1044102" value="Hazaribag"></option><option id="1044282" value="Jharia"></option><option id="1044462" value="JhumriTelaiya"></option><option id="1044642" value="Jorapokhar"></option><option id="1044822" value="Katras"></option><option id="1045002" value="Phusro"></option><option id="1045182" value="Ramgarh"></option><option id="1045362" value="Sahebganj"></option><option id="1045542" value="Saunda"></option><option id="1045722" value="Sindri"></option><option id="1045902" value="Tisra"></option><option id="1046082" value="Bagalkot"></option><option id="1046262" value="Basavakalyan"></option><option id="1046442" value="Bellary"></option><option id="1046622" value="Bhadravathi"></option><option id="1046802" value="Bidar"></option><option id="1046982" value="Bijapur"></option><option id="1047162" value="Chamrajnagar"></option><option id="1047342" value="Channapatna"></option><option id="1047522" value="Chikkaballapur"></option><option id="1047702" value="Chikmagalur"></option><option id="1047882" value="Chintamani"></option><option id="1048062" value="Chitradurga"></option><option id="1048242" value="Dandeli"></option><option id="1048422" value="Davanagere"></option><option id="1048602" value="Doddaballapur"></option><option id="1048782" value="Gadag"></option><option id="1048962" value="Gangavathi"></option><option id="1049142" value="Gokak"></option><option id="1049322" value="Gulbarga"></option><option id="1049502" value="Harihar"></option><option id="1049682" value="Hassan"></option><option id="1049862" value="Haveri"></option><option id="1050042" value="Hospet"></option><option id="1050222" value="Ilkal"></option><option id="1050402" value="Jamakhandi"></option><option id="1050582" value="Karwar"></option><option id="1050762" value="Kolar"></option><option id="1050942" value="Kollegal"></option><option id="1051122" value="Koppal"></option><option id="1051302" value="Mandya"></option><option id="1051482" value="Nipani"></option><option id="1051662" value="RabkaviBanhatti"></option><option id="1051842" value="Raichur"></option><option id="1052022" value="Ramanagaram"></option><option id="1052202" value="Ranebennur"></option><option id="1052382" value="Robertsonpet"></option><option id="1052562" value="Sagara"></option><option id="1052742" value="Shimoga"></option><option id="1052922" value="Sindhnur"></option><option id="1053102" value="Sira"></option><option id="1053282" value="Sirsi"></option><option id="1053462" value="Tiptur"></option><option id="1053642" value="Tumkur"></option><option id="1053822" value="Udupi"></option><option id="1054002" value="Yadgir"></option><option id="1054182" value="Alappuzha"></option><option id="1054362" value="Changanacherry"></option><option id="1054542" value="Cherthala"></option><option id="1054722" value="Chittur"></option><option id="1054902" value="Edathala"></option><option id="1055082" value="Kanhangad"></option><option id="1055262" value="Kannur"></option><option id="1055442" value="Kasaragod"></option><option id="1055622" value="Kayamkulam"></option><option id="1055802" value="Kollam"></option><option id="1055982" value="Kottayam"></option><option id="1056162" value="Malappuram"></option><option id="1056342" value="Manjeri"></option><option id="1056522" value="Nedumangad"></option><option id="1056702" value="Neyyattinkara"></option><option id="1056882" value="Palakkad"></option><option id="1057062" value="Payyannur"></option><option id="1057242" value="Ponnani"></option><option id="1057422" value="Taliparamba"></option><option id="1057602" value="Thalassery"></option><option id="1057782" value="Tirur"></option><option id="1057962" value="Tiruvalla"></option><option id="1058142" value="Kavaratti"></option><option id="1058322" value="Ashoknagar"></option><option id="1058502" value="Balaghat"></option><option id="1058682" value="Betul"></option><option id="1058862" value="Bhind"></option><option id="1059042" value="BinaEtawa"></option><option id="1059222" value="Burhanpur"></option><option id="1059402" value="Chhatarpur"></option><option id="1059582" value="Chhindwara"></option><option id="1059762" value="Dabra"></option><option id="1059942" value="Damoh"></option><option id="1060122" value="Datia"></option><option id="1060302" value="Dewas"></option><option id="1060482" value="Dhanpuri"></option><option id="1060662" value="Dhar"></option><option id="1060842" value="Guna"></option><option id="1061022" value="Harda"></option><option id="1061202" value="Hoshangabad"></option><option id="1061382" value="Itarsi"></option><option id="1061562" value="Jaora"></option><option id="1061743" value="Khandwa"></option><option id="1061923" value="Khargone"></option><option id="1062103" value="Mandla"></option><option id="1062283" value="Mandsaur"></option><option id="1062463" value="Mhow"></option><option id="1062643" value="Morena"></option><option id="1062823" value="Nagda"></option><option id="1063003" value="Narsinghpur"></option><option id="1063183" value="Nimach"></option><option id="1063363" value="Panna"></option><option id="1063543" value="Parasia"></option><option id="1063723" value="Pithampur"></option><option id="1063903" value="Ratlam"></option><option id="1064083" value="Rewa"></option><option id="1064263" value="Sagar"></option><option id="1064443" value="Sarni"></option><option id="1064623" value="Satna"></option><option id="1064803" value="Sehore"></option><option id="1064983" value="Seoni"></option><option id="1065163" value="Shahdol"></option><option id="1065343" value="Shajapur"></option><option id="1065523" value="Sheopur"></option><option id="1065703" value="Shivpuri"></option><option id="1065883" value="Singrauli"></option><option id="1066063" value="Tikamgarh"></option><option id="1066243" value="Ujjain"></option><option id="1066423" value="Vidisha"></option><option id="1066603" value="Achalpur"></option><option id="1066783" value="Ahmednagar"></option><option id="1066963" value="Akot"></option><option id="1067143" value="Amalner"></option><option id="1067323" value="Ambajogai"></option><option id="1067503" value="Amravati"></option><option id="1067683" value="Anjangaon"></option><option id="1067863" value="Badlapur"></option><option id="1068043" value="Ballarpur"></option><option id="1068223" value="Baramati"></option><option id="1068403" value="Barshi"></option><option id="1068583" value="Basmath"></option><option id="1068763" value="Beed"></option><option id="1068943" value="Bhadravati"></option><option id="1069123" value="Bhandara"></option><option id="1069303" value="Bhusawal"></option><option id="1069483" value="Buldhana"></option><option id="1069663" value="Chalisgaon"></option><option id="1069843" value="Chandrapur"></option><option id="1070023" value="Chopda"></option><option id="1070203" value="Deolali"></option><option id="1070383" value="Dhule"></option><option id="1070563" value="Gondia"></option><option id="1070743" value="Hinganghat"></option><option id="1070923" value="Hingoli"></option><option id="1071103" value="Ichalkaranji"></option><option id="1071283" value="Jalgaon"></option><option id="1071463" value="Jalna"></option><option id="1071643" value="Kamthi"></option><option id="1071823" value="Karad"></option><option id="1072003" value="Karanja"></option><option id="1072183" value="Khamgaon"></option><option id="1072363" value="Khopoli"></option><option id="1072543" value="Kopargaon"></option><option id="1072723" value="Latur"></option><option id="1072903" value="Lonavla"></option><option id="1073083" value="Malegaon"></option><option id="1073263" value="Malkapur"></option><option id="1073443" value="Manmad"></option><option id="1073623" value="Miraj"></option><option id="1073803" value="Nanded"></option><option id="1073983" value="Nandurbar"></option><option id="1074163" value="NavgharManikpur"></option><option id="1074343" value="Osmanabad"></option><option id="1074523" value="Palghar"></option><option id="1074703" value="Pandharpur"></option><option id="1074883" value="Panvel"></option><option id="1075063" value="Parbhani"></option><option id="1075243" value="Parli"></option><option id="1075423" value="Phaltan"></option><option id="1075603" value="PimpriChinchwad"></option><option id="1075783" value="Pusad"></option><option id="1075963" value="Ratnagiri"></option><option id="1076143" value="Sangamner"></option><option id="1076323" value="Sangli"></option><option id="1076503" value="Shegaon"></option><option id="1076683" value="Shirpur"></option><option id="1076863" value="Shrirampur"></option><option id="1077043" value="Udgir"></option><option id="1077223" value="UranIslampur"></option><option id="1077403" value="VasaiVirar"></option><option id="1077583" value="Wani"></option><option id="1077763" value="Wardha"></option><option id="1077943" value="Washim"></option><option id="1078123" value="Yavatmal"></option><option id="1078303" value="Imphal"></option><option id="1078483" value="Tura"></option><option id="1078663" value="Dimapur"></option><option id="1078843" value="Balangir"></option><option id="1079023" value="Balasore"></option><option id="1079203" value="Barbil"></option><option id="1079383" value="Bargarh"></option><option id="1079563" value="Baripada"></option><option id="1079743" value="Bhadrak"></option><option id="1079923" value="Bhawanipatna"></option><option id="1080103" value="Brahmapur"></option><option id="1080283" value="Brajarajnagar"></option><option id="1080463" value="Dhenkanal"></option><option id="1080643" value="Jatani"></option><option id="1080823" value="Jeypore"></option><option id="1081003" value="Jharsuguda"></option><option id="1081183" value="Kendujhar"></option><option id="1081363" value="Paradip"></option><option id="1081543" value="Puri"></option><option id="1081723" value="Rayagada"></option><option id="1081903" value="Rourkela"></option><option id="1082083" value="Sambalpur"></option><option id="1082263" value="Sunabeda"></option><option id="1082443" value="Karaikal"></option><option id="1082623" value="Ozhukarai"></option><option id="1082803" value="Abohar"></option><option id="1082983" value="Barnala"></option><option id="1083163" value="Batala"></option><option id="1083343" value="Bathinda"></option><option id="1083523" value="Faridkot"></option><option id="1083703" value="Fazilka"></option><option id="1083883" value="Firozpur"></option><option id="1084063" value="FirozpurCantonment"></option><option id="1084243" value="Gurdaspur"></option><option id="1084423" value="Hoshiarpur"></option><option id="1084603" value="Jagraon"></option><option id="1084783" value="Kapurthala"></option><option id="1084963" value="Khanna"></option><option id="1085143" value="Kotkapura"></option><option id="1085323" value="Malerkotla"></option><option id="1085503" value="Malout"></option><option id="1085683" value="MandiGobindgarh"></option><option id="1085863" value="Mansa"></option><option id="1086043" value="Moga"></option><option id="1086223" value="Nabha"></option><option id="1086403" value="Pathankot"></option><option id="1086583" value="Patiala"></option><option id="1086763" value="Phagwara"></option><option id="1086943" value="Rajpura"></option><option id="1087123" value="Sangrur"></option><option id="1087303" value="Sirhind"></option><option id="1087483" value="SriMuktsarSahib"></option><option id="1087663" value="Sunam"></option><option id="1087843" value="TarnTaranSahib"></option><option id="1088023" value="Alwar"></option><option id="1088203" value="Balotra"></option><option id="1088383" value="Banswara"></option><option id="1088563" value="Baran"></option><option id="1088743" value="Bari"></option><option id="1088923" value="Barmer"></option><option id="1089103" value="Beawar"></option><option id="1089283" value="Bharatpur"></option><option id="1089463" value="Bhilwara"></option><option id="1089643" value="Bundi"></option><option id="1089823" value="Chittorgarh"></option><option id="1090003" value="Chomu"></option><option id="1090183" value="Churu"></option><option id="1090363" value="Dausa"></option><option id="1090543" value="Dholpur"></option><option id="1090723" value="Ganganagar"></option><option id="1090903" value="GangapurCity"></option><option id="1091083" value="Hanumangarh"></option><option id="1091263" value="Hindaun"></option><option id="1091443" value="Jaisalmer"></option><option id="1091623" value="Jhunjhunu"></option><option id="1091803" value="Karauli"></option><option id="1091983" value="Kishangarh"></option><option id="1092163" value="Kota"></option><option id="1092343" value="Kuchaman"></option><option id="1092523" value="Ladnun"></option><option id="1092703" value="Makrana"></option><option id="1092883" value="Nagaur"></option><option id="1093063" value="Nawalgarh"></option><option id="1093243" value="Nimbahera"></option><option id="1093423" value="Pali"></option><option id="1093603" value="Rajgarh"></option><option id="1093783" value="Rajsamand"></option><option id="1093963" value="Ratangarh"></option><option id="1094143" value="Sardarshahar"></option><option id="1094323" value="SawaiMadhopur"></option><option id="1094503" value="Sikar"></option><option id="1094683" value="Sujangarh"></option><option id="1094863" value="Suratgarh"></option><option id="1095043" value="Tonk"></option><option id="1095223" value="Gangtok"></option><option id="1095403" value="Aarani"></option><option id="1095583" value="Ambasamudram"></option><option id="1095763" value="Ambur"></option><option id="1095943" value="Arakkonam"></option><option id="1096123" value="Arcot"></option><option id="1096303" value="Aruppukkottai"></option><option id="1096483" value="Attur"></option><option id="1096663" value="Avaniapuram"></option><option id="1096843" value="Bhavani"></option><option id="1097023" value="Bodinayakkanur"></option><option id="1097203" value="Chengalpattu"></option><option id="1097383" value="Chidambaram"></option><option id="1097563" value="Coonoor"></option><option id="1097743" value="Cuddalore"></option><option id="1097923" value="Devarshola"></option><option id="1098103" value="Dharapuram"></option><option id="1098283" value="Dharmapuri"></option><option id="1098463" value="Dindigul"></option><option id="1098643" value="Erode"></option><option id="1098823" value="Gobichettipalayam"></option><option id="1099003" value="Gudiyatham"></option><option id="1099183" value="Hosur"></option><option id="1099363" value="Kadayanallur"></option><option id="1099543" value="Kambam"></option><option id="1099723" value="Kanchipuram"></option><option id="1099903" value="Karaikudi"></option><option id="1100083" value="Karur"></option><option id="1100263" value="Komarapalayam"></option><option id="1100443" value="Kovilpatti"></option><option id="1100623" value="Krishnagiri"></option><option id="1100803" value="Kumbakonam"></option><option id="1100983" value="Mannargudi"></option><option id="1101163" value="Mayiladuthurai"></option><option id="1101343" value="Mettupalayam"></option><option id="1101523" value="Mettur"></option><option id="1101703" value="Nagapattinam"></option><option id="1101883" value="Nagercoil"></option><option id="1102063" value="Namakkal"></option><option id="1102243" value="Neyveli"></option><option id="1102423" value="Ooty"></option><option id="1102603" value="Palani"></option><option id="1102783" value="Pallavaram"></option><option id="1102963" value="Panruti"></option><option id="1103143" value="Paramakudi"></option><option id="1103323" value="Pattukkottai"></option><option id="1103503" value="Pollachi"></option><option id="1103683" value="Pudukkottai"></option><option id="1103863" value="Puliyankudi"></option><option id="1104043" value="Rajapalayam"></option><option id="1104223" value="Ramanathapuram"></option><option id="1104403" value="Sankarankoil"></option><option id="1104583" value="Sivakasi"></option><option id="1104763" value="Srivilliputhur"></option><option id="1104943" value="Tenkasi"></option><option id="1105123" value="Thanjavur"></option><option id="1105303" value="TheniAllinagaram"></option><option id="1105483" value="Thiruvarur"></option><option id="1105663" value="Thoothukudi"></option><option id="1105843" value="Tindivanam"></option><option id="1106023" value="Tiruchendur"></option><option id="1106203" value="Tiruchengode"></option><option id="1106383" value="Tirunelveli"></option><option id="1106563" value="Tirupathur"></option><option id="1106743" value="Tirupur"></option><option id="1106923" value="Tiruvannamalai"></option><option id="1107103" value="Udumalaipettai"></option><option id="1107283" value="Valparai"></option><option id="1107463" value="Vaniyambadi"></option><option id="1107643" value="Viluppuram"></option><option id="1107823" value="Virudhachalam"></option><option id="1108003" value="Virudhunagar"></option><option id="1108183" value="Agartala"></option><option id="1108363" value="Aligarh"></option><option id="1108543" value="Amroha"></option><option id="1108723" value="Auraiya"></option><option id="1108903" value="Azamgarh"></option><option id="1109083" value="Baheri"></option><option id="1109263" value="Bahraich"></option><option id="1109443" value="Ballia"></option><option id="1109623" value="Balrampur"></option><option id="1109803" value="Banda"></option><option id="1109983" value="Baraut"></option><option id="1110163" value="Basti"></option><option id="1110343" value="BehtaHajipur"></option><option id="1110523" value="BelaPratapgarh"></option><option id="1110703" value="Bhadohi"></option><option id="1110883" value="Bijnor"></option><option id="1111063" value="Bisalpur"></option><option id="1111243" value="Budaun"></option><option id="1111423" value="Bulandshahr"></option><option id="1111603" value="Chandausi"></option><option id="1111783" value="Chandpur"></option><option id="1111963" value="Chhibramau"></option><option id="1112143" value="Dadri"></option><option id="1112323" value="Deoband"></option><option id="1112503" value="Deoria"></option><option id="1112683" value="Etah"></option><option id="1112863" value="Etawah"></option><option id="1113043" value="Faizabad"></option><option id="1113223" value="Faridpur"></option><option id="1113403" value="Farrukhabad"></option><option id="1113583" value="Fatehpur"></option><option id="1113763" value="Firozabad"></option><option id="1113943" value="Gangaghat"></option><option id="1114123" value="Gangoh"></option><option id="1114303" value="Ghazipur"></option><option id="1114483" value="GolaGokarannath"></option><option id="1114663" value="Gonda"></option><option id="1114843" value="Gorakhpur"></option><option id="1115023" value="Hapur"></option><option id="1115203" value="Hardoi"></option><option id="1115383" value="Hasanpur"></option><option id="1115563" value="Hathras"></option><option id="1115743" value="Jahangirabad"></option><option id="1115923" value="Jaunpur"></option><option id="1116103" value="Jhansi"></option><option id="1116283" value="Kairana"></option><option id="1116463" value="Kannauj"></option><option id="1116643" value="Kasganj"></option><option id="1116823" value="Khatauli"></option><option id="1117003" value="Khurja"></option><option id="1117183" value="Kiratpur"></option><option id="1117363" value="Konch"></option><option id="1117543" value="Laharpur"></option><option id="1117723" value="Lakhimpur"></option><option id="1117903" value="Lalitpur"></option><option id="1118083" value="Loni"></option><option id="1118263" value="Mahoba"></option><option id="1118443" value="Mainpuri"></option><option id="1118623" value="Mau"></option><option id="1118803" value="Mauranipur"></option><option id="1118983" value="Mawana"></option><option id="1119163" value="Mirzapur"></option><option id="1119343" value="Modinagar"></option><option id="1119523" value="Mubarakpur"></option><option id="1119703" value="Mughalsarai"></option><option id="1119883" value="Muradnagar"></option><option id="1120063" value="Muzaffarnagar"></option><option id="1120243" value="Nagina"></option><option id="1120423" value="Najibabad"></option><option id="1120603" value="Nawabganj"></option><option id="1120783" value="Obra"></option><option id="1120963" value="Orai"></option><option id="1121143" value="Pilibhit"></option><option id="1121323" value="Pilkhuwa"></option><option id="1121503" value="Raebareli"></option><option id="1121683" value="Rampur"></option><option id="1121863" value="Rath"></option><option id="1122043" value="Renukoot"></option><option id="1122223" value="Saharanpur"></option><option id="1122403" value="Sahaswan"></option><option id="1122583" value="Sambhal"></option><option id="1122763" value="Shahabad"></option><option id="1122943" value="Shahjahanpur"></option><option id="1123123" value="Shamli"></option><option id="1123303" value="Sherkot"></option><option id="1123483" value="Shikohabad"></option><option id="1123663" value="Sikandrabad"></option><option id="1123843" value="Sitapur"></option><option id="1124023" value="Sultanpur"></option><option id="1124203" value="Tanda"></option><option id="1124383" value="Tilhar"></option><option id="1124563" value="Tundla"></option><option id="1124743" value="Ujhani"></option><option id="1124923" value="Unnao"></option><option id="1125103" value="Vrindavan"></option><option id="1125283" value="Haldwani"></option><option id="1125463" value="Hardwar"></option><option id="1125643" value="Kashipur"></option><option id="1125823" value="Rishikesh"></option><option id="1126003" value="Roorkee"></option><option id="1126183" value="Rudrapur"></option><option id="1126363" value="Alipurduar"></option><option id="1126543" value="Arambag"></option><option id="1126723" value="Asansol"></option><option id="1126903" value="AshoknagarKalyangarh"></option><option id="1127083" value="Baharampur"></option><option id="1127263" value="Baidyabati"></option><option id="1127443" value="Bally"></option><option id="1127623" value="Balurghat"></option><option id="1127803" value="Bankura"></option><option id="1127983" value="Bansberia"></option><option id="1128163" value="Baranagar"></option><option id="1128343" value="Barasat"></option><option id="1128523" value="Bardhaman"></option><option id="1128703" value="Barrackpore"></option><option id="1128883" value="Baruipur"></option><option id="1129063" value="Basirhat"></option><option id="1129243" value="Beldanga"></option><option id="1129423" value="Bhadreswar"></option><option id="1129603" value="Bhatpara"></option><option id="1129783" value="Bidhannagar"></option><option id="1129963" value="Birnagar"></option><option id="1130143" value="Bishnupur"></option><option id="1130323" value="BolpurSantiniketan"></option><option id="1130503" value="Bongaon"></option><option id="1130683" value="BudgeBudge"></option><option id="1130863" value="Chakdaha"></option><option id="1131043" value="Champdani"></option><option id="1131223" value="Chandannagar"></option><option id="1131403" value="Chandrokona"></option><option id="1131583" value="Contai"></option><option id="1131763" value="CoochBehar"></option><option id="1131943" value="CoopersCamp"></option><option id="1132123" value="Dainhat"></option><option id="1132303" value="Dalkhola"></option><option id="1132483" value="Darjeeling"></option><option id="1132663" value="Dhulian"></option><option id="1132843" value="Dhupguri"></option><option id="1133023" value="DiamondHarbour"></option><option id="1133203" value="Dubrajpur"></option><option id="1133383" value="Dumdum"></option><option id="1133563" value="Durgapur"></option><option id="1133743" value="Egra"></option><option id="1133923" value="EnglishBazar"></option><option id="1134103" value="Gangarampur"></option><option id="1134283" value="Garulia"></option><option id="1134463" value="Ghatal"></option><option id="1134643" value="Gobardanga"></option><option id="1134823" value="Guskara"></option><option id="1135003" value="Habra"></option><option id="1135183" value="Haldia"></option><option id="1135363" value="Haldibari"></option><option id="1135543" value="Halisahar"></option><option id="1135723" value="Howrah"></option><option id="1135903" value="HugliChuchura"></option><option id="1136083" value="Islampur"></option><option id="1136263" value="Jalpaiguri"></option><option id="1136443" value="Jamuria"></option><option id="1136623" value="JaynagarMazilpur"></option><option id="1136803" value="Jhalda"></option><option id="1136983" value="Jhargram"></option><option id="1137163" value="JiaganjAzimganj"></option><option id="1137343" value="Kaliaganj"></option><option id="1137523" value="Kalimpong"></option><option id="1137703" value="Kalna"></option><option id="1137883" value="Kalyani"></option><option id="1138063" value="Kamarhati"></option><option id="1138243" value="Kanchrapara"></option><option id="1138423" value="Kandi"></option><option id="1138603" value="Katwa"></option><option id="1138783" value="Kharar"></option><option id="1138963" value="Khardaha"></option><option id="1139143" value="Khirpai"></option><option id="1139323" value="Konnagar"></option><option id="1139503" value="Krishnanagar"></option><option id="1139683" value="Kulti"></option><option id="1139863" value="Kurseong"></option><option id="1140043" value="Madhyamgram"></option><option id="1140223" value="Maheshtala"></option><option id="1140403" value="Malbazar"></option><option id="1140583" value="Mathabhanga"></option><option id="1140763" value="Mekliganj"></option><option id="1140943" value="Memari"></option><option id="1141123" value="Midnapore"></option><option id="1141303" value="Mirik"></option><option id="1141483" value="Murshidabad"></option><option id="1141663" value="Nabadwip"></option><option id="1141843" value="Naihati"></option><option id="1142023" value="Nalhati"></option><option id="1142203" value="NewBarrackpur"></option><option id="1142383" value="Panihati"></option><option id="1142563" value="Panskura"></option><option id="1142743" value="Pujali"></option><option id="1142923" value="Purulia"></option><option id="1143103" value="Raghunathpur"></option><option id="1143283" value="Raiganj"></option><option id="1143463" value="RajpurSonarpur"></option><option id="1143643" value="Rampurhat"></option><option id="1143823" value="Ranaghat"></option><option id="1144003" value="Raniganj"></option><option id="1144183" value="Rishra"></option><option id="1144363" value="Sainthia"></option><option id="1144543" value="Serampore"></option><option id="1144723" value="Shantipur"></option><option id="1144903" value="Siliguri"></option><option id="1145083" value="Sonamukhi"></option><option id="1145263" value="Suri"></option><option id="1145443" value="Taherpur"></option><option id="1145623" value="Taki"></option><option id="1145803" value="Tamluk"></option><option id="1145983" value="Tarakeswar"></option><option id="1146163" value="Titagarh"></option><option id="1146343" value="Tufanganj"></option><option id="1146523" value="Uluberia"></option><option id="1146703" value="Uttarpara"></option><option id="1146883" value="PortBlair">                            </option></datalist>
+                          
+                          <label class="error" for="cityName"></label>
+                          <input type="hidden" id="city" value="1" name="cityid">
+
+                          <span class="inputDesc js-post-ad-locality-title" style="display:none">Locality<sup>*</sup></span>
+                                                      <input list="locality" name="adlocality" class="inputFields localityInput requiredElement  hide " placeholder="Search for Locality" tabindex="7" value="All Localities">
+                            <span class="clearAll clearAllLocal" style="display:none" title="Clear All">×</span>
+                            <datalist id="locality">
+                                                          </datalist>
+                                                    <label class="error" for="adlocality"></label>
+						</div>
+						
+						
+						
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<div id="tips">
+				<h2><em>Selling</em> tips</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse metus. Nunc at velit a erat dapibus ullamcorper. Mauris posuere lacus et libero. Fusce pretium</p>
+				<p class="more"><a href="">More</a></p>
+			</div>
+			<div id="choose">
+				<h2><em>Choose</em> a seller</h2>
+				<p>vestibulum. Aliquam erat volutpat. Sed pede erat </p>
+				<p>Choose a Seller</p>
+				<form action="">
+					<select name="q">
+						<option value="">Seller</option>
+					</select>
+					<input type="image" name="submit" src="images/btn_footer.gif" id="submit" />
+				</form>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+
+		<div id="copyright">
+			Copyright information goes here. All rights reserved
+		</div>
+
+	</div>
+		
+</body>
+</html>
